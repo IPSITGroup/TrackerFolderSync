@@ -1,0 +1,5 @@
+C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TimeUtilities\bin\Debug\TimeUtilities.dll
+C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TimeUtilities\bin\Debug\TimeUtilities.pdb
+C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TimeUtilities\obj\Debug\TimeUtilities.csprojResolveAssemblyReference.cache
+C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TimeUtilities\obj\Debug\TimeUtilities.dll
+C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TimeUtilities\obj\Debug\TimeUtilities.pdb

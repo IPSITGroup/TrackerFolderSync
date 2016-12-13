@@ -1,0 +1,5 @@
+C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\IPSPathUtilities\bin\Debug\IPSPathUtilities.dll
+C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\IPSPathUtilities\bin\Debug\IPSPathUtilities.pdb
+C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\IPSPathUtilities\obj\Debug\IPSPathUtilities.dll
+C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\IPSPathUtilities\obj\Debug\IPSPathUtilities.pdb
+C:\Users\abrooks.SERVICE\documents\visual studio 2015\Projects\TrackerFolderSync2\IPSPathUtilities\obj\Debug\IPSPathUtilities.csprojResolveAssemblyReference.cache
