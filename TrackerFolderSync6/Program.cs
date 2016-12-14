@@ -31,7 +31,7 @@ namespace TrackerFolderSync6
         private static DateTime StartTime = DateTime.Now;
 
         // Flag for the type of jobs to be processed (active or inactive) [Active by default]
-        private static bool ProcessActiveJobs = true;
+        private static bool ProcessActiveJobs = false;
 
         // Container to hold the queue of the jobs to be processed
         private static DataTable JobsToProcess = new DataTable();
@@ -95,7 +95,7 @@ namespace TrackerFolderSync6
             try
             {
                 ProgressStartRow = Console.CursorTop + 4;
-                ErrorStartRow = ProgressStartRow + 10; 
+                ErrorStartRow = ProgressStartRow + 10;
 
                 foreach(DataRow Job in JobsToProcess.Rows)
                 {
@@ -172,19 +172,20 @@ namespace TrackerFolderSync6
                 // and copy the contents over to the job's root directory in schweb,
                 // add 't' to the list of snyced directories.
                 // =====================================================================
-                if (!new FileInfo(file).Directory.Name.Equals(new DirectoryInfo(schintranetJobDirectory).Name) &&
+                // vvvvvvvvvvvvvvv FIX THIS STATEMENT vvvvvvvvvvvvvvvvvvvvvvvv
+                if (!Path.GetDirectoryName(file).Equals(schintranetJobDirectory) &&
                     !SyncedDirectories.Contains(new FileInfo(file).Directory.Name))
                 {
                     _log("info", "File in subdirectory skipped: " + file.Replace(PathHelpers.SchintranetJobsDirectory, " ~ Schintranet "));
                     Unsynced++;
                 }
                 // if it's a file type that's not synced, keep moving
-                else if (!SyncedFileTypes.Contains(Path.GetExtension(file)))
+                else if (!SyncedFileTypes.Contains(Path.GetExtension(file).ToLower()))
                     Unsynced++;
                 else if (File.Exists(schwebFilePath))
                 {
                     // if the file exists on schweb, make sure it's the most recent version
-                    if (File.GetLastWriteTime(file).CompareTo(File.GetLastWriteTime(schwebFilePath)) >= 0)
+                    if (File.GetLastWriteTime(file).CompareTo(File.GetLastWriteTime(schwebFilePath)) > 0)
                     {
                         // let the user know what's happening
                         _reportStatus(jobNumber, divNumber, file, schwebFilePath, "copying");
@@ -216,6 +217,8 @@ namespace TrackerFolderSync6
             }
 
             // clean up files on schweb that shouldn't be there
+            // -- WARNING: This part deletes files from schweb.
+            // -- NEVER: Delete files from schintranet
             List<string> filesInJobDirectoryOnSchweb = Directory.GetFiles(schwebJobDirectory, "*.*", SearchOption.AllDirectories).ToList();
             IEnumerable<string> filesToDeleteFromSchweb = filesInJobDirectoryOnSchweb.Except(ApprovedFiles);
             _log("info", filesInJobDirectoryOnSchweb.Count + " files found in " + schwebJobDirectory.Replace(PathHelpers.SchwebJobsDirectory, " ~ Schweb ") + " | " + filesToDeleteFromSchweb.Count() + " to delete.");
@@ -247,7 +250,7 @@ namespace TrackerFolderSync6
         {
             try
             {
-                // define the query to be executed against schsql01 for active jobs 
+                // define the query to be executed against schsql01 for active jobs
                 // or inactive jobs depending on the parameters passed
                 string QueryString;
                 if(ProcessActiveJobs)
@@ -388,7 +391,7 @@ namespace TrackerFolderSync6
             Console.WriteLine();
             Console.WriteLine("{0:5}  |  {1:5}  |  {2:5}  ", "Current div: " + divNumber, "Current job: " + jobNumber, status ?? "");
             Console.WriteLine();
-            Console.WriteLine("{0:5}  |  {1:5}  |  {2:5}  |  {3:5}  |  {4:5}  ", "Skipped: " + Existing, "Pics: " + Images, "Docs: " + Documents, "Unsynced: " + Unsynced, "Removed: " + Removed);          
+            Console.WriteLine("{0:5}  |  {1:5}  |  {2:5}  |  {3:5}  |  {4:5}  ", "Skipped: " + Existing, "Pics: " + Images, "Docs: " + Documents, "Unsynced: " + Unsynced, "Removed: " + Removed);
         }
         private static void _reportError(string message)
         {
