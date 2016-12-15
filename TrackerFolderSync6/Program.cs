@@ -31,7 +31,7 @@ namespace TrackerFolderSync6
         private static DateTime StartTime = DateTime.Now;
 
         // Flag for the type of jobs to be processed (active or inactive) [Active by default]
-        private static bool ProcessActiveJobs = false;
+        private static bool ProcessActiveJobs = true;
 
         // Container to hold the queue of the jobs to be processed
         private static DataTable JobsToProcess = new DataTable();
@@ -172,7 +172,6 @@ namespace TrackerFolderSync6
                 // and copy the contents over to the job's root directory in schweb,
                 // add 't' to the list of snyced directories.
                 // =====================================================================
-                // vvvvvvvvvvvvvvv FIX THIS STATEMENT vvvvvvvvvvvvvvvvvvvvvvvv
                 if (!Path.GetDirectoryName(file).Equals(schintranetJobDirectory) &&
                     !SyncedDirectories.Contains(new FileInfo(file).Directory.Name))
                 {
@@ -225,7 +224,7 @@ namespace TrackerFolderSync6
 
             foreach (string file in filesToDeleteFromSchweb)
             {
-                // File.Delete(file);
+                File.Delete(file);
                 _reportStatus(jobNumber, divNumber, schwebFilePath: file, status: "deleting");
                 _log("info", "File deleted from schweb: " + file.Replace(PathHelpers.SchwebJobsDirectory, " ~ Schweb "));
                 Removed++;
@@ -235,13 +234,13 @@ namespace TrackerFolderSync6
         {
             if(ImageHelpers.IsImage(file))
             {
-                // ImageHelpers.OptimizeAndCopy(file, schwebFilePath, MaxOptimizedImageSize);
+                ImageHelpers.OptimizeAndCopy(file, schwebFilePath, MaxOptimizedImageSize);
                 _log("info", "Image copied from: " + file.Replace(PathHelpers.SchintranetJobsDirectory, " ~ Schintranet ") + " to " + schwebFilePath.Replace(PathHelpers.SchwebJobsDirectory, " ~ Schweb ") + ".");
                 Images++;
             }
             else
             {
-                // File.Copy(file, schwebFilePath, true);
+                File.Copy(file, schwebFilePath, true);
                 _log("info", "Document copied from: " + file.Replace(PathHelpers.SchintranetJobsDirectory, " ~ Schintranet ") + " to " + schwebFilePath.Replace(PathHelpers.SchwebJobsDirectory, " ~ Schweb ") + ".");
                 Documents++;
             }
