@@ -3,6 +3,7 @@ Syncs documents/images from Schintranet to Schweb. Supported file types are ONLY
 By default, any files in subdirectories on schintranet are ignored with the exception of the following accepted subdirectory names: "Pictures", "Pics", or "test reports".
 The Application Event Log is written to when the application starts, when it completes, and in the event of any errors.
 A detailed log file is also generated at %appdata%\TrackerFolderSync\LogFile.log
+Images are automatically scaled down to a max width OR height of 1000px while keeping the same aspect ratio.
 
 ## Application workflow
 1. Depending on whether or not the "-history" flag was passed, schweb is polled for job numbers and div numbers.
