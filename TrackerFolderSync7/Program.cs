@@ -1,6 +1,4 @@
-﻿using Serilog;
-using Serilog.Events;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -71,7 +69,7 @@ namespace TrackerFolderSync7
             var runtime = DateTime.Now - StartTime;
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"Sync completed {DateTime.Now} | {runtime.ToReadableString()} runtime");
-            Log.Information($"Sync completed {DateTime.Now} | {runtime.ToReadableString()} runtime.");
+            Log.CloseLog(runtime.ToReadableString());
 
             Console.ReadLine();
         }
@@ -169,7 +167,7 @@ namespace TrackerFolderSync7
                 }
                 catch (Exception ex)
                 {
-                    Log.Error(ex, $"Failed to delete file {file.Replace(Settings.Default.SchwebJobsDirectory, "~Schweb")}.");
+                    Log.Error($"Failed to delete file {file.Replace(Settings.Default.SchwebJobsDirectory, "~Schweb")}.", ex);
                     ConsoleManager.ReportError(ex);
                 }
             }
@@ -187,7 +185,7 @@ namespace TrackerFolderSync7
                 }
                 catch(Exception ex)
                 {
-                    Log.Error(ex, $"Failed to copy image ({file.Replace(Settings.Default.SchintranetJobsDirectory, "~Schintranet")}) to schweb.");
+                    Log.Error($"Failed to copy image ({file.Replace(Settings.Default.SchintranetJobsDirectory, "~Schintranet")}) to schweb.", ex);
                     ConsoleManager.Errors++;
                     ConsoleManager.ReportError(ex);
                 }
@@ -202,7 +200,7 @@ namespace TrackerFolderSync7
                 }
                 catch(Exception ex)
                 {
-                    Log.Error(ex, $"Failed to copy doucment ({file.Replace(Settings.Default.SchintranetJobsDirectory, "~Schintranet")}) to schweb.");
+                    Log.Error($"Failed to copy doucment ({file.Replace(Settings.Default.SchintranetJobsDirectory, "~Schintranet")}) to schweb.", ex);
                     ConsoleManager.Errors++;
                     ConsoleManager.ReportError(ex);
                 }
@@ -251,7 +249,7 @@ namespace TrackerFolderSync7
                     }
                     catch(Exception ex)
                     {
-                        Log.Error(ex, "Error retreiving data from SCHSQL01.");
+                        Log.Error("Error retreiving data from SCHSQL01.", ex);
                         ConsoleManager.ReportError(ex);
                         return false;
                     }
@@ -260,7 +258,7 @@ namespace TrackerFolderSync7
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "Unable to connect to SCHSQL01.");
+                Log.Error("Unable to connect to SCHSQL01.", ex);
                 ConsoleManager.ReportError(ex);
                 return false;
             }
@@ -268,15 +266,10 @@ namespace TrackerFolderSync7
 
         private static void InitializeLogging()
         {
-            // Set up the log in the event logger
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.File(Environment.ExpandEnvironmentVariables(Settings.Default.LogFilePath))
-                .WriteTo.EventLog(Settings.Default.EventSource)
-                .CreateLogger();
+            Log.CreateLogger();
 
             // Register global exception handler
-            AppDomain.CurrentDomain.UnhandledException += (s, e) => Log.Fatal((Exception)e.ExceptionObject, "Unhandled application error.");
+            AppDomain.CurrentDomain.UnhandledException += (s, e) => Log.Fatal("Unhandled application error.", (Exception)e.ExceptionObject);
         }
     }
 }

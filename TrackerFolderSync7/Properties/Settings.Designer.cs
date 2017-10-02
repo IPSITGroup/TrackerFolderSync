@@ -52,7 +52,7 @@ namespace TrackerFolderSync7.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("%LocalAppData%\\TrackerFolderSync\\SyncLog.log")]
+        [global::System.Configuration.DefaultSettingValueAttribute("%AppData%\\TrackerFolderSync\\SyncLog.log")]
         public string LogFilePath {
             get {
                 return ((string)(this["LogFilePath"]));

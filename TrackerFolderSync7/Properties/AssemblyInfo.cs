@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TrackerFolderSync7")]
+[assembly: AssemblyTitle("IPS Tracker Jobs Sync")]
 [assembly: AssemblyDescription("Syncs files from Schintranet to Schweb for customers to see the progress of their motor repairs.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Palmetto Technology Group, Inc.")]
-[assembly: AssemblyProduct("TrackerFolderSync7")]
+[assembly: AssemblyProduct("IPS Tracker Jobs Sync")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

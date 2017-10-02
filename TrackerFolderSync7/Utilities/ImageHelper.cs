@@ -1,5 +1,4 @@
-﻿using Serilog;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -33,7 +32,7 @@ namespace TrackerFolderSync7.Utilities
             }
             catch (Exception ex)
             {
-                Log.Error(ex, $"Failure processing image file: {originalImagePath}.");
+                Log.Error($"Failure processing image file: {originalImagePath}.", ex);
             }
 
             // If image is smaller than the max dimensions, set max dimensions to image size
@@ -92,7 +91,7 @@ namespace TrackerFolderSync7.Utilities
             catch (Exception ex)
             {
                 ConsoleManager.ReportError(ex);
-                Log.Error(ex, $"Failure optimizing image: {originalImagePath.Replace(Settings.Default.SchintranetJobsDirectory, "~Schintranet")}.");
+                Log.Error($"Failure optimizing image: {originalImagePath.Replace(Settings.Default.SchintranetJobsDirectory, "~Schintranet")}.", ex);
             }
         }
     }

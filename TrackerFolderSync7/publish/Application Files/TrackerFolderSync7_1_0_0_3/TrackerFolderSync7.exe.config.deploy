@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="TrackerFolderSync7.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false"/>
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5"/>
+    </startup>
+    <applicationSettings>
+        <TrackerFolderSync7.Properties.Settings>
+            <setting name="MaxOptimizedImageSize" serializeAs="String">
+                <value>1000</value>
+            </setting>
+            <setting name="SyncedFileTypes" serializeAs="String">
+                <value>.jpg,.bmp,.gif,.png,.pdf</value>
+            </setting>
+            <setting name="SyncedDirectories" serializeAs="String">
+                <value>pics,pictures,test reports</value>
+            </setting>
+            <setting name="LogFilePath" serializeAs="String">
+                <value>%LocalAppData%\TrackerFolderSync\SyncLog.log</value>
+            </setting>
+            <setting name="EventLogName" serializeAs="String">
+                <value>Application</value>
+            </setting>
+            <setting name="EventSource" serializeAs="String">
+                <value>TrackerFolderSync</value>
+            </setting>
+            <setting name="SchintranetJobsPath" serializeAs="String">
+                <value>\\161.153.138.46\acs\acs\firms\firm{0}\images\jobs\{1}</value>
+            </setting>
+            <setting name="SchwebJobsPath" serializeAs="String">
+                <value>\\192.168.1.15\Websites\IPS Tracker\private\firms\firm{0}\images\jobs\{1}</value>
+            </setting>
+            <setting name="SchintranetJobsDirectory" serializeAs="String">
+                <value>\\161.153.138.46\acs\acs\firms</value>
+            </setting>
+            <setting name="SchwebJobsDirectory" serializeAs="String">
+                <value>\\192.168.1.15\Websites\IPS Tracker\private\firms</value>
+            </setting>
+        </TrackerFolderSync7.Properties.Settings>
+    </applicationSettings>
+</configuration>

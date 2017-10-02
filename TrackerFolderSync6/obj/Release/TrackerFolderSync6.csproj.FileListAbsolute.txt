@@ -13,3 +13,18 @@ C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\obj\Release
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\obj\Release\TrackerFolderSync6.csproj.CoreCompileInputs.cache
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\obj\Release\TrackerFolderSync6.exe
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\obj\Release\TrackerFolderSync6.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\bin\Release\TrackerFolderSync6.exe.config
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\bin\Release\TrackerFolderSync6.exe
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\bin\Release\TrackerFolderSync6.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\bin\Release\ImageOptimizer.dll
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\bin\Release\IPSPathUtilities.dll
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\bin\Release\TextLogger.dll
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\bin\Release\TimeUtilities.dll
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\bin\Release\ImageOptimizer.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\bin\Release\IPSPathUtilities.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\bin\Release\TextLogger.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\bin\Release\TimeUtilities.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\obj\Release\TrackerFolderSync6.csprojResolveAssemblyReference.cache
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\obj\Release\TrackerFolderSync6.csproj.CoreCompileInputs.cache
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\obj\Release\TrackerFolderSync6.exe
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync6\obj\Release\TrackerFolderSync6.pdb

@@ -10,3 +10,14 @@ C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync7\bin\Release
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync7\obj\Release\TrackerFolderSync7.csproj.CoreCompileInputs.cache
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync7\obj\Release\TrackerFolderSync7.exe
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync7\obj\Release\TrackerFolderSync7.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync7\bin\Release\TrackerFolderSync7.exe.config
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync7\bin\Release\TrackerFolderSync7.exe
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync7\bin\Release\TrackerFolderSync7.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync7\obj\Release\TrackerFolderSync7.csproj.CoreCompileInputs.cache
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync7\obj\Release\TrackerFolderSync7.exe
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync7\obj\Release\TrackerFolderSync7.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync7\bin\Release\TrackerFolderSync7.exe.manifest
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync7\bin\Release\TrackerFolderSync7.application
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync7\obj\Release\TrackerFolderSync7.TrustInfo.xml
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync7\obj\Release\TrackerFolderSync7.exe.manifest
+C:\Users\abrooks\Projects\TrackerFolderSync\TrackerFolderSync7\obj\Release\TrackerFolderSync7.application

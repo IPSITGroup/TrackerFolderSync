@@ -3,3 +3,8 @@ C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TimeUtilities\bin\Release\Time
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TimeUtilities\obj\Release\TimeUtilities.csproj.CoreCompileInputs.cache
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TimeUtilities\obj\Release\TimeUtilities.dll
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TimeUtilities\obj\Release\TimeUtilities.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\TimeUtilities\bin\Release\TimeUtilities.dll
+C:\Users\abrooks\Projects\TrackerFolderSync\TimeUtilities\bin\Release\TimeUtilities.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\TimeUtilities\obj\Release\TimeUtilities.csproj.CoreCompileInputs.cache
+C:\Users\abrooks\Projects\TrackerFolderSync\TimeUtilities\obj\Release\TimeUtilities.dll
+C:\Users\abrooks\Projects\TrackerFolderSync\TimeUtilities\obj\Release\TimeUtilities.pdb

@@ -4,3 +4,9 @@ C:\Users\abrooks\Projects\IPS Tracker Folder Sync\IPSPathUtilities\obj\Release\I
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\IPSPathUtilities\obj\Release\IPSPathUtilities.csproj.CoreCompileInputs.cache
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\IPSPathUtilities\obj\Release\IPSPathUtilities.dll
 C:\Users\abrooks\Projects\IPS Tracker Folder Sync\IPSPathUtilities\obj\Release\IPSPathUtilities.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\IPSPathUtilities\bin\Release\IPSPathUtilities.dll
+C:\Users\abrooks\Projects\TrackerFolderSync\IPSPathUtilities\bin\Release\IPSPathUtilities.pdb
+C:\Users\abrooks\Projects\TrackerFolderSync\IPSPathUtilities\obj\Release\IPSPathUtilities.csprojResolveAssemblyReference.cache
+C:\Users\abrooks\Projects\TrackerFolderSync\IPSPathUtilities\obj\Release\IPSPathUtilities.csproj.CoreCompileInputs.cache
+C:\Users\abrooks\Projects\TrackerFolderSync\IPSPathUtilities\obj\Release\IPSPathUtilities.dll
+C:\Users\abrooks\Projects\TrackerFolderSync\IPSPathUtilities\obj\Release\IPSPathUtilities.pdb
