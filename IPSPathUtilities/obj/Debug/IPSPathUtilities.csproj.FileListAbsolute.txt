@@ -3,3 +3,9 @@ C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\IPSPathUtilities\obj\Debug\IPSPathUtilities.dll
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\IPSPathUtilities\obj\Debug\IPSPathUtilities.pdb
 C:\Users\abrooks.SERVICE\documents\visual studio 2015\Projects\TrackerFolderSync2\IPSPathUtilities\obj\Debug\IPSPathUtilities.csprojResolveAssemblyReference.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\IPSPathUtilities\bin\Debug\IPSPathUtilities.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\IPSPathUtilities\bin\Debug\IPSPathUtilities.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\IPSPathUtilities\obj\Debug\IPSPathUtilities.csprojResolveAssemblyReference.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\IPSPathUtilities\obj\Debug\IPSPathUtilities.csproj.CoreCompileInputs.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\IPSPathUtilities\obj\Debug\IPSPathUtilities.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\IPSPathUtilities\obj\Debug\IPSPathUtilities.pdb

@@ -1,0 +1,5 @@
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\ImageOptimizer\bin\Release\ImageOptimizer.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\ImageOptimizer\bin\Release\ImageOptimizer.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\ImageOptimizer\obj\Release\ImageOptimizer.csproj.CoreCompileInputs.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\ImageOptimizer\obj\Release\ImageOptimizer.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\ImageOptimizer\obj\Release\ImageOptimizer.pdb

@@ -3,3 +3,9 @@ C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\ImageOptimizer\obj\Debug\ImageOptimizer.csprojResolveAssemblyReference.cache
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\ImageOptimizer\obj\Debug\ImageOptimizer.dll
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\ImageOptimizer\obj\Debug\ImageOptimizer.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\ImageOptimizer\bin\Debug\ImageOptimizer.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\ImageOptimizer\bin\Debug\ImageOptimizer.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\ImageOptimizer\obj\Debug\ImageOptimizer.csprojResolveAssemblyReference.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\ImageOptimizer\obj\Debug\ImageOptimizer.csproj.CoreCompileInputs.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\ImageOptimizer\obj\Debug\ImageOptimizer.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\ImageOptimizer\obj\Debug\ImageOptimizer.pdb

@@ -12,3 +12,18 @@ C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TrackerFolderSync6\obj\Debug\TrackerFolderSync6.pdb
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TrackerFolderSync6\bin\Debug\TimeUtilities.dll
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TrackerFolderSync6\bin\Debug\TimeUtilities.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\bin\Debug\TrackerFolderSync6.exe.config
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\bin\Debug\TrackerFolderSync6.exe
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\bin\Debug\TrackerFolderSync6.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\bin\Debug\ImageOptimizer.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\bin\Debug\IPSPathUtilities.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\bin\Debug\TextLogger.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\bin\Debug\TimeUtilities.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\bin\Debug\ImageOptimizer.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\bin\Debug\IPSPathUtilities.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\bin\Debug\TextLogger.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\bin\Debug\TimeUtilities.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\obj\Debug\TrackerFolderSync6.csprojResolveAssemblyReference.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\obj\Debug\TrackerFolderSync6.csproj.CoreCompileInputs.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\obj\Debug\TrackerFolderSync6.exe
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TrackerFolderSync6\obj\Debug\TrackerFolderSync6.pdb

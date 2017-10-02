@@ -72,7 +72,7 @@ namespace TrackerFolderSync6
                 if (arg.Equals("-history"))
                     ProcessActiveJobs = false;
                 else
-                    _log("Warning", "Unrecognized parameter: \"" + arg + "\". Continuing with defautls.");
+                    _log("Warning", "Unrecognized parameter: \"" + arg + "\". Continuing with defaults.");
             }
 
             // Let the logs know the sync is starting
@@ -92,36 +92,36 @@ namespace TrackerFolderSync6
                 return;
 
             // begin processing
-            try
+            ProgressStartRow = Console.CursorTop + 4;
+            ErrorStartRow = ProgressStartRow + 10;
+
+            foreach(DataRow Job in JobsToProcess.Rows)
             {
-                ProgressStartRow = Console.CursorTop + 4;
-                ErrorStartRow = ProgressStartRow + 10;
+                // increment the job counter
+                JobCounter++;
 
-                foreach(DataRow Job in JobsToProcess.Rows)
-                {
-                    // increment the job counter
-                    JobCounter++;
+                string divNumber = Job[0].ToString();
+                string jobNumber = Job[1].ToString();
 
-                    string divNumber = Job[0].ToString();
-                    string jobNumber = Job[1].ToString();
+                try {
 
                     // process the files
                     SyncJobDirectories(jobNumber, divNumber);
                 }
-            }
-            catch (Exception ex)
-            {
-                // build error message
-                string ErrorMessage = "Processing failed for file. " + ex.Message + (ex.InnerException == null ? "" : (string.IsNullOrEmpty(ex.InnerException.Message) ? "" : " (" + ex.InnerException.Message + ")"));
+                catch (Exception ex)
+                {
+                    // build error message
+                    var ErrorMessage = $"Processing job fail. Job {jobNumber}. {ex.Message + (ex.InnerException == null ? "" : (string.IsNullOrWhiteSpace(ex.InnerException.Message) ? "" : $"({ex.InnerException.Message})"))}";
 
-                // let the logs know what happened
-                _log("error", ErrorMessage);
+                    // let the logs know what happened
+                    _log("error", ErrorMessage);
 
-                // increment errors count
-                Errors++;
+                    // increment errors count
+                    Errors++;
 
-                // let the user know what happened
-                _reportError(ErrorMessage);
+                    // let the user know what happened
+                    _reportError(ErrorMessage);
+                }
             }
 
             _reportStatus(" - ", " - ", " - ", " - ", "completed");

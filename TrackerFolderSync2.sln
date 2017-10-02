@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageOptimizer", "ImageOptimizer\ImageOptimizer.csproj", "{4654C6BB-C3B8-491C-9230-4784EFE015F3}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSPathUtilities", "IPSPathUtilities\IPSPathUtilities.csproj", "{08F211F2-D46A-4E60-BD4F-C682C734D94F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeUtilities", "TimeUtilities\TimeUtilities.csproj", "{719533E6-D656-4810-93E0-EF099A8D7EFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackerFolderSync7", "TrackerFolderSync7\TrackerFolderSync7.csproj", "{813A8E23-E9CB-48E0-A80D-D7218DE480D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,8 +85,23 @@ Global
 		{719533E6-D656-4810-93E0-EF099A8D7EFC}.Release|x64.Build.0 = Release|Any CPU
 		{719533E6-D656-4810-93E0-EF099A8D7EFC}.Release|x86.ActiveCfg = Release|Any CPU
 		{719533E6-D656-4810-93E0-EF099A8D7EFC}.Release|x86.Build.0 = Release|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Debug|x64.Build.0 = Debug|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Debug|x86.Build.0 = Debug|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Release|x64.ActiveCfg = Release|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Release|x64.Build.0 = Release|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Release|x86.ActiveCfg = Release|Any CPU
+		{813A8E23-E9CB-48E0-A80D-D7218DE480D6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C556C08A-8EA3-41A4-93F6-89F7D24708B5}
 	EndGlobalSection
 EndGlobal

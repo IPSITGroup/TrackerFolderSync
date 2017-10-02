@@ -3,3 +3,9 @@ C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TextLogger\obj\Debug\TextLogger.csprojResolveAssemblyReference.cache
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TextLogger\obj\Debug\TextLogger.dll
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TextLogger\obj\Debug\TextLogger.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TextLogger\bin\Debug\TextLogger.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TextLogger\bin\Debug\TextLogger.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TextLogger\obj\Debug\TextLogger.csprojResolveAssemblyReference.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TextLogger\obj\Debug\TextLogger.csproj.CoreCompileInputs.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TextLogger\obj\Debug\TextLogger.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TextLogger\obj\Debug\TextLogger.pdb

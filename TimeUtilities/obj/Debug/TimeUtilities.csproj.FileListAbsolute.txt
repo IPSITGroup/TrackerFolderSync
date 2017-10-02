@@ -3,3 +3,9 @@ C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TimeUtilities\obj\Debug\TimeUtilities.csprojResolveAssemblyReference.cache
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TimeUtilities\obj\Debug\TimeUtilities.dll
 C:\Users\abrooks.SERVICE\Documents\Visual Studio 2015\Projects\TrackerFolderSync2\TimeUtilities\obj\Debug\TimeUtilities.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TimeUtilities\bin\Debug\TimeUtilities.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TimeUtilities\bin\Debug\TimeUtilities.pdb
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TimeUtilities\obj\Debug\TimeUtilities.csprojResolveAssemblyReference.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TimeUtilities\obj\Debug\TimeUtilities.csproj.CoreCompileInputs.cache
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TimeUtilities\obj\Debug\TimeUtilities.dll
+C:\Users\abrooks\Projects\IPS Tracker Folder Sync\TimeUtilities\obj\Debug\TimeUtilities.pdb
